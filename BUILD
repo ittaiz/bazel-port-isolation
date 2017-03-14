@@ -6,6 +6,7 @@ java_test(
     deps = [
         "@junit_junit//jar",
     ],
+    tags = ["block-network"],
 )
 java_test(
     name = "SocketIsolationTest",
@@ -15,4 +16,5 @@ java_test(
     deps = [
         "@junit_junit//jar",
     ],
+    tags = ["block-network"],
 )
